@@ -7,13 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04124C9E889143BBE17A52AE /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E325F175D03C4C6CA996024 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX.framework */; };
+		8B6A73F8142F82DD46611A13 /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1A03018A4737360C9B946E /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS.framework */; };
 		ABDCAC5B1F93CDDD00DE9B9B /* WildHacks2017Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDCAC591F93CDDD00DE9B9B /* WildHacks2017Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABDCAC621F93CFC500DE9B9B /* WildHacks2017Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDCAC611F93CFC500DE9B9B /* WildHacks2017Kit.m */; };
+		ABDCAC721F95517600DE9B9B /* WildHacks2017Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDCAC591F93CDDD00DE9B9B /* WildHacks2017Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABDCAC731F95517A00DE9B9B /* WildHacks2017Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDCAC611F93CFC500DE9B9B /* WildHacks2017Kit.m */; };
+		ABDCAC7B1F95527300DE9B9B /* WildHacks2017Kit_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCAC7A1F95527300DE9B9B /* WildHacks2017Kit_OSXTests.swift */; };
+		ABDCAC7D1F95527300DE9B9B /* WildHacks2017Kit_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit_OSX.framework */; };
+		ABDCAC8E1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCAC8D1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.swift */; };
+		ABDCAC901F9567A800DE9B9B /* WildHacks2017Kit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDCAC6A1F94160E00DE9B9B /* WildHacks2017Kit_iOS.framework */; };
+		AEBA2B66E4354FAD972CB8EE /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS_WildHacks2017Kit_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18B3F7454EA47B001CACD35 /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS_WildHacks2017Kit_iOSTests.framework */; };
+		C939A8D348E888004AEBD8D1 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX_WildHacks2017Kit_OSXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D07C12F00A448D4EDBC2869 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX_WildHacks2017Kit_OSXTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ABDCAC7E1F95527300DE9B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDCAC4D1F93CDDD00DE9B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDCAC551F93CDDD00DE9B9B;
+			remoteInfo = "WildHacks2017Kit-OSX";
+		};
+		ABDCAC911F9567A800DE9B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDCAC4D1F93CDDD00DE9B9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDCAC691F94160E00DE9B9B;
+			remoteInfo = "WildHacks2017Kit-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WildHacks2017Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E6C21A8BABF2DCA2CAE255 /* Pods_WildHacks2017Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildHacks2017Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D41E58CD144DEB1EBC90B3 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		1A273461E8F523C0F3383B89 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E036902C1C51866A6FF6884 /* Pods-WildHacks2017Kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit/Pods-WildHacks2017Kit.debug.xcconfig"; sourceTree = "<group>"; };
+		2D07C12F00A448D4EDBC2869 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX_WildHacks2017Kit_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildHacks2017Kit_WildHacks2017Kit_OSX_WildHacks2017Kit_OSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E325F175D03C4C6CA996024 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildHacks2017Kit_WildHacks2017Kit_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D9310E39B985D214D63684 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		487B2C971FD29CF725F0B793 /* Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A34BE2633635ADE82705FDF /* Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		688F4AC67F76176209500B8C /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A1A03018A4737360C9B946E /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildHacks2017Kit_WildHacks2017Kit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B50ECE5CA1D283E32AF3D2 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E7B47AD35AC2DF7AFFEC1C0 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9E7F3E27C2C536BDB01C0032 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A18B3F7454EA47B001CACD35 /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS_WildHacks2017Kit_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildHacks2017Kit_WildHacks2017Kit_iOS_WildHacks2017Kit_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WildHacks2017Kit_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDCAC591F93CDDD00DE9B9B /* WildHacks2017Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WildHacks2017Kit.h; sourceTree = "<group>"; };
 		ABDCAC5A1F93CDDD00DE9B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDCAC611F93CFC500DE9B9B /* WildHacks2017Kit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildHacks2017Kit.m; sourceTree = "<group>"; };
+		ABDCAC6A1F94160E00DE9B9B /* WildHacks2017Kit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WildHacks2017Kit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDCAC781F95527300DE9B9B /* WildHacks2017Kit_OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildHacks2017Kit_OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDCAC7A1F95527300DE9B9B /* WildHacks2017Kit_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildHacks2017Kit_OSXTests.swift; sourceTree = "<group>"; };
+		ABDCAC7C1F95527300DE9B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDCAC831F95556400DE9B9B /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		ABDCAC8B1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildHacks2017Kit_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDCAC8D1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildHacks2017Kit_iOSTests.swift; sourceTree = "<group>"; };
+		ABDCAC8F1F9567A800DE9B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82512ABF390FCC5AB4031FD /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0AC75854926A3A3E37218ED /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildHacks2017Kit_WildHacks2017Kit_OSXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A27CC0A41974A4B6250957 /* Pods-WildHacks2017Kit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildHacks2017Kit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildHacks2017Kit/Pods-WildHacks2017Kit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,24 +76,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04124C9E889143BBE17A52AE /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC661F94160E00DE9B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6A73F8142F82DD46611A13 /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC751F95527300DE9B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCAC7D1F95527300DE9B9B /* WildHacks2017Kit_OSX.framework in Frameworks */,
+				C939A8D348E888004AEBD8D1 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX_WildHacks2017Kit_OSXTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC881F9567A800DE9B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCAC901F9567A800DE9B9B /* WildHacks2017Kit_iOS.framework in Frameworks */,
+				AEBA2B66E4354FAD972CB8EE /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS_WildHacks2017Kit_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		796146E5AF1462C04D969AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05E6C21A8BABF2DCA2CAE255 /* Pods_WildHacks2017Kit.framework */,
+				3E325F175D03C4C6CA996024 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX.framework */,
+				7A1A03018A4737360C9B946E /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS.framework */,
+				C0AC75854926A3A3E37218ED /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSXTests.framework */,
+				2D07C12F00A448D4EDBC2869 /* Pods_WildHacks2017Kit_WildHacks2017Kit_OSX_WildHacks2017Kit_OSXTests.framework */,
+				A18B3F7454EA47B001CACD35 /* Pods_WildHacks2017Kit_WildHacks2017Kit_iOS_WildHacks2017Kit_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79A890E0BAEF201F485354C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E036902C1C51866A6FF6884 /* Pods-WildHacks2017Kit.debug.xcconfig */,
+				D8A27CC0A41974A4B6250957 /* Pods-WildHacks2017Kit.release.xcconfig */,
+				41D9310E39B985D214D63684 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.debug.xcconfig */,
+				13D41E58CD144DEB1EBC90B3 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.release.xcconfig */,
+				8E7B47AD35AC2DF7AFFEC1C0 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.debug.xcconfig */,
+				9E7F3E27C2C536BDB01C0032 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.release.xcconfig */,
+				5A34BE2633635ADE82705FDF /* Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.debug.xcconfig */,
+				487B2C971FD29CF725F0B793 /* Pods-WildHacks2017Kit-WildHacks2017Kit_OSXTests.release.xcconfig */,
+				688F4AC67F76176209500B8C /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.debug.xcconfig */,
+				1A273461E8F523C0F3383B89 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.release.xcconfig */,
+				88B50ECE5CA1D283E32AF3D2 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.debug.xcconfig */,
+				B82512ABF390FCC5AB4031FD /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ABDCAC4C1F93CDDD00DE9B9B = {
 			isa = PBXGroup;
 			children = (
 				ABDCAC581F93CDDD00DE9B9B /* WildHacks2017Kit */,
+				ABDCAC791F95527300DE9B9B /* WildHacks2017Kit_OSXTests */,
+				ABDCAC8C1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests */,
 				ABDCAC571F93CDDD00DE9B9B /* Products */,
+				79A890E0BAEF201F485354C3 /* Pods */,
+				796146E5AF1462C04D969AF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		ABDCAC571F93CDDD00DE9B9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit.framework */,
+				ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit_OSX.framework */,
+				ABDCAC6A1F94160E00DE9B9B /* WildHacks2017Kit_iOS.framework */,
+				ABDCAC781F95527300DE9B9B /* WildHacks2017Kit_OSXTests.xctest */,
+				ABDCAC8B1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +167,30 @@
 		ABDCAC581F93CDDD00DE9B9B /* WildHacks2017Kit */ = {
 			isa = PBXGroup;
 			children = (
-				ABDCAC591F93CDDD00DE9B9B /* WildHacks2017Kit.h */,
 				ABDCAC5A1F93CDDD00DE9B9B /* Info.plist */,
+				ABDCAC591F93CDDD00DE9B9B /* WildHacks2017Kit.h */,
+				ABDCAC611F93CFC500DE9B9B /* WildHacks2017Kit.m */,
 			);
 			path = WildHacks2017Kit;
+			sourceTree = "<group>";
+		};
+		ABDCAC791F95527300DE9B9B /* WildHacks2017Kit_OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCAC7A1F95527300DE9B9B /* WildHacks2017Kit_OSXTests.swift */,
+				ABDCAC7C1F95527300DE9B9B /* Info.plist */,
+				ABDCAC831F95556400DE9B9B /* BridgingHeader.h */,
+			);
+			path = WildHacks2017Kit_OSXTests;
+			sourceTree = "<group>";
+		};
+		ABDCAC8C1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCAC8D1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.swift */,
+				ABDCAC8F1F9567A800DE9B9B /* Info.plist */,
+			);
+			path = WildHacks2017Kit_iOSTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,26 +204,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABDCAC671F94160E00DE9B9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCAC721F95517600DE9B9B /* WildHacks2017Kit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ABDCAC551F93CDDD00DE9B9B /* WildHacks2017Kit */ = {
+		ABDCAC551F93CDDD00DE9B9B /* WildHacks2017Kit-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABDCAC5E1F93CDDD00DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit" */;
+			buildConfigurationList = ABDCAC5E1F93CDDD00DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit-OSX" */;
 			buildPhases = (
+				D31A50510C8636E179611D25 /* [CP] Check Pods Manifest.lock */,
 				ABDCAC511F93CDDD00DE9B9B /* Sources */,
 				ABDCAC521F93CDDD00DE9B9B /* Frameworks */,
 				ABDCAC531F93CDDD00DE9B9B /* Headers */,
 				ABDCAC541F93CDDD00DE9B9B /* Resources */,
+				E9818CFC94E2859C404E6E16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WildHacks2017Kit;
+			name = "WildHacks2017Kit-OSX";
 			productName = WildHacks2017Kit;
-			productReference = ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit.framework */;
+			productReference = ABDCAC561F93CDDD00DE9B9B /* WildHacks2017Kit_OSX.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		ABDCAC691F94160E00DE9B9B /* WildHacks2017Kit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDCAC6F1F94160F00DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit-iOS" */;
+			buildPhases = (
+				ADDA4B8DF94DF7529C10F13E /* [CP] Check Pods Manifest.lock */,
+				ABDCAC651F94160E00DE9B9B /* Sources */,
+				ABDCAC661F94160E00DE9B9B /* Frameworks */,
+				ABDCAC671F94160E00DE9B9B /* Headers */,
+				ABDCAC681F94160E00DE9B9B /* Resources */,
+				88DF8F2782BFB96B7A78A9F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WildHacks2017Kit-iOS";
+			productName = "WildHacks2017Kit-iOS";
+			productReference = ABDCAC6A1F94160E00DE9B9B /* WildHacks2017Kit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABDCAC771F95527300DE9B9B /* WildHacks2017Kit_OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDCAC801F95527300DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit_OSXTests" */;
+			buildPhases = (
+				2388315CB1708C0B88F620DD /* [CP] Check Pods Manifest.lock */,
+				ABDCAC741F95527300DE9B9B /* Sources */,
+				ABDCAC751F95527300DE9B9B /* Frameworks */,
+				ABDCAC761F95527300DE9B9B /* Resources */,
+				992C2FF061D74E18643F7F76 /* [CP] Embed Pods Frameworks */,
+				0405FDB14928DAAD0BB06AB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDCAC7F1F95527300DE9B9B /* PBXTargetDependency */,
+			);
+			name = WildHacks2017Kit_OSXTests;
+			productName = WildHacks2017Kit_OSXTests;
+			productReference = ABDCAC781F95527300DE9B9B /* WildHacks2017Kit_OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABDCAC8A1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDCAC951F9567A800DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit_iOSTests" */;
+			buildPhases = (
+				0F1731654B916F8C950C1EDE /* [CP] Check Pods Manifest.lock */,
+				ABDCAC871F9567A800DE9B9B /* Sources */,
+				ABDCAC881F9567A800DE9B9B /* Frameworks */,
+				ABDCAC891F9567A800DE9B9B /* Resources */,
+				F6EA6176359CC2216FC11A24 /* [CP] Embed Pods Frameworks */,
+				2F212B7ABDCC345F21FFBF1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDCAC921F9567A800DE9B9B /* PBXTargetDependency */,
+			);
+			name = WildHacks2017Kit_iOSTests;
+			productName = WildHacks2017Kit_iOSTests;
+			productReference = ABDCAC8B1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -90,10 +303,23 @@
 		ABDCAC4D1F93CDDD00DE9B9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Jonathan Chan";
 				TargetAttributes = {
 					ABDCAC551F93CDDD00DE9B9B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ABDCAC691F94160E00DE9B9B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ABDCAC771F95527300DE9B9B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					ABDCAC8A1F9567A800DE9B9B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,7 +337,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABDCAC551F93CDDD00DE9B9B /* WildHacks2017Kit */,
+				ABDCAC551F93CDDD00DE9B9B /* WildHacks2017Kit-OSX */,
+				ABDCAC691F94160E00DE9B9B /* WildHacks2017Kit-iOS */,
+				ABDCAC771F95527300DE9B9B /* WildHacks2017Kit_OSXTests */,
+				ABDCAC8A1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,17 +353,247 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABDCAC681F94160E00DE9B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC761F95527300DE9B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC891F9567A800DE9B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0405FDB14928DAAD0BB06AB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F1731654B916F8C950C1EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2388315CB1708C0B88F620DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F212B7ABDCC345F21FFBF1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DF8F2782BFB96B7A78A9F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992C2FF061D74E18643F7F76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-c94d3492/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADDA4B8DF94DF7529C10F13E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31A50510C8636E179611D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9818CFC94E2859C404E6E16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX/Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EA6176359CC2216FC11A24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests/Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABDCAC511F93CDDD00DE9B9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDCAC621F93CFC500DE9B9B /* WildHacks2017Kit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC651F94160E00DE9B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCAC731F95517A00DE9B9B /* WildHacks2017Kit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC741F95527300DE9B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCAC7B1F95527300DE9B9B /* WildHacks2017Kit_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDCAC871F9567A800DE9B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDCAC8E1F9567A800DE9B9B /* WildHacks2017Kit_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDCAC7F1F95527300DE9B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDCAC551F93CDDD00DE9B9B /* WildHacks2017Kit-OSX */;
+			targetProxy = ABDCAC7E1F95527300DE9B9B /* PBXContainerItemProxy */;
+		};
+		ABDCAC921F9567A800DE9B9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDCAC691F94160E00DE9B9B /* WildHacks2017Kit-iOS */;
+			targetProxy = ABDCAC911F9567A800DE9B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ABDCAC5C1F93CDDD00DE9B9B /* Debug */ = {
@@ -248,11 +707,11 @@
 		};
 		ABDCAC5F1F93CDDD00DE9B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D9310E39B985D214D63684 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -260,6 +719,7 @@
 				INFOPLIST_FILE = WildHacks2017Kit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wildhacks.WildHacks2017Kit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -268,11 +728,11 @@
 		};
 		ABDCAC601F93CDDD00DE9B9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D41E58CD144DEB1EBC90B3 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -280,9 +740,124 @@
 				INFOPLIST_FILE = WildHacks2017Kit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = org.wildhacks.WildHacks2017Kit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ABDCAC701F94160F00DE9B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7B47AD35AC2DF7AFFEC1C0 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/WildHacks2017Kit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wildhacks.WildHacks2017Kit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDCAC711F94160F00DE9B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7F3E27C2C536BDB01C0032 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/WildHacks2017Kit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.wildhacks.WildHacks2017Kit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDCAC811F95527300DE9B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688F4AC67F76176209500B8C /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WildHacks2017Kit_OSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wildhacks.WildHacks2017Kit-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = WildHacks2017Kit_OSXTests/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ABDCAC821F95527300DE9B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A273461E8F523C0F3383B89 /* Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-WildHacks2017Kit_OSXTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WildHacks2017Kit_OSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wildhacks.WildHacks2017Kit-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WildHacks2017Kit_OSXTests/BridgingHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		ABDCAC931F9567A800DE9B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B50ECE5CA1D283E32AF3D2 /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WildHacks2017Kit_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wildhacks.WildHacks2017Kit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDCAC941F9567A800DE9B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82512ABF390FCC5AB4031FD /* Pods-WildHacks2017Kit-WildHacks2017Kit-iOS-WildHacks2017Kit_iOSTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WildHacks2017Kit_iOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wildhacks.WildHacks2017Kit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -298,11 +873,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABDCAC5E1F93CDDD00DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit" */ = {
+		ABDCAC5E1F93CDDD00DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABDCAC5F1F93CDDD00DE9B9B /* Debug */,
 				ABDCAC601F93CDDD00DE9B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDCAC6F1F94160F00DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDCAC701F94160F00DE9B9B /* Debug */,
+				ABDCAC711F94160F00DE9B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDCAC801F95527300DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit_OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDCAC811F95527300DE9B9B /* Debug */,
+				ABDCAC821F95527300DE9B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDCAC951F9567A800DE9B9B /* Build configuration list for PBXNativeTarget "WildHacks2017Kit_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDCAC931F9567A800DE9B9B /* Debug */,
+				ABDCAC941F9567A800DE9B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

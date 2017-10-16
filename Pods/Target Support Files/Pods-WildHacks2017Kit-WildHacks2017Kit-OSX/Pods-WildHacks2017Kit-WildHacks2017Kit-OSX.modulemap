@@ -1,0 +1,6 @@
+framework module Pods_WildHacks2017Kit_WildHacks2017Kit_OSX {
+  umbrella header "Pods-WildHacks2017Kit-WildHacks2017Kit-OSX-umbrella.h"
+
+  export *
+  module * { export * }
+}
